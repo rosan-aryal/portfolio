@@ -67,6 +67,45 @@ export const projects: Project[] = [
   {
     id: "5",
     codename: "PROJECT_EPSILON",
+    title: "Prospect Hill NDIS",
+    excerpt:
+      "An NDIS-registered provider site for Supported Independent Living across NSW and QLD.",
+    description:
+      "Designed a website for Prospect Hill, an NDIS-registered provider delivering Supported Independent Living, community participation, and respite care across New South Wales and Queensland. Highlighted person-centered programs, five service locations, and resources for participants, families, and support coordinators to simplify access to disability support since 2010.",
+    image: "https://prospect-hill.com.au/images/porospect-hill.webp",
+    imageAlt: "NDIS Provider Website",
+    tags: ["WEB_DESIGN", "FRONTEND", "UI_UX"],
+    techStack: ["Next.js", "Tailwind CSS", "TypeScript"],
+    status: "COMPLETED",
+    year: 2026,
+    link: "https://prospect-hill.com.au",
+  },
+  {
+    id: "6",
+    codename: "PROJECT_ZETA",
+    title: "Navion Tech Solutions",
+    excerpt:
+      "A fleet tracking, CCTV, and networking platform for businesses across Nepal.",
+    description:
+      "Built a fullstack platform for NaviOn Tech Solutions, Nepal's trusted provider of GPS fleet tracking, CCTV surveillance, vehicle dashcams, enterprise networking, and software development. Delivered real-time vehicle monitoring, route optimization, a product catalog, and service pages tailored for businesses across Pokhara, Kathmandu, and other major Nepali cities. Completed as a freelance engagement.",
+    image: "https://navion.com.np/logo.png",
+    imageAlt: "Fleet Tracking & Tech Platform",
+    tags: ["WEB_DESIGN", "FULLSTACK", "FREELANCE"],
+    techStack: [
+      "Next.js",
+      "Tailwind CSS",
+      "TypeScript",
+      "Hono",
+      "PostgreSQL",
+      "Drizzle ORM",
+    ],
+    status: "COMPLETED",
+    year: 2026,
+    link: "https://navion.com.np",
+  },
+  {
+    id: "7",
+    codename: "PROJECT_ETA",
     title: "Kalika Multiple Campus",
     excerpt:
       "A website showcasing educational programs and facilities for Kalika Multiple Campus.",
@@ -81,8 +120,8 @@ export const projects: Project[] = [
     link: "",
   },
   {
-    id: "6",
-    codename: "PROJECT_ZETA",
+    id: "8",
+    codename: "PROJECT_THETA",
     title: "Sacred Valley Treks",
     excerpt:
       "A trekking agency website focused on Nepal's destinations and itineraries.",
@@ -97,8 +136,8 @@ export const projects: Project[] = [
     link: "",
   },
   {
-    id: "7",
-    codename: "PROJECT_ETA",
+    id: "9",
+    codename: "PROJECT_IOTA",
     title: "Bodhidham ",
     excerpt:
       "A website for yoga retreats and spiritual wellness center in Nepal.",
@@ -114,8 +153,8 @@ export const projects: Project[] = [
     link: "https://bodhidham.raiserank.com.np",
   },
   {
-    id: "8",
-    codename: "PROJECT_THETA",
+    id: "10",
+    codename: "PROJECT_KAPPA",
     title: "Bloggie - Blog API Service",
     excerpt:
       "A modern blog platform with REST API for content management and delivery.",
@@ -126,7 +165,7 @@ export const projects: Project[] = [
     tags: ["WEB_DESIGN", "API", "FRONTEND"],
     techStack: ["Node.js", "Express.js", "TypeScript", "Tailwind CSS", "tRPC"],
     status: "IN_PROGRESS",
-    year: 2025,
+    year: 2026,
     link: "https://blogapiservice.com",
   },
 ];
